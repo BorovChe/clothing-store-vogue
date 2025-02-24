@@ -1,0 +1,22 @@
+[
+  {
+    "id": "l1",
+    "href": "shop",
+    "title": "Shop"
+  },
+  {
+    "id": "l2",
+    "href": "new-arrivals",
+    "title": "New Arrivals"
+  },
+  {
+    "id": "l3",
+    "href": "best-sellers",
+    "title": "Best Sellers"
+  },
+  {
+    "id": "l4",
+    "href": "pages",
+    "title": "Pages"
+  }
+]

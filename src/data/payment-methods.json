@@ -1,0 +1,26 @@
+[
+  {
+    "id": "m1",
+    "icon": "visa.svg"
+  },
+  {
+    "id": "m2",
+    "icon": "pay-pal.svg"
+  },
+  {
+    "id": "m3",
+    "icon": "master-card.svg"
+  },
+  {
+    "id": "m4",
+    "icon": "discover.svg"
+  },
+  {
+    "id": "m5",
+    "icon": "diners-club.svg"
+  },
+  {
+    "id": "m6",
+    "icon": "amex.svg"
+  }
+]

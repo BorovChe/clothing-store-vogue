@@ -1,0 +1,80 @@
+[
+  {
+    "id": "t1",
+    "title": "HELP",
+    "navigation": [
+      {
+        "id": "n1",
+        "href": "shipping-returns",
+        "title": "Shipping & Returns"
+      },
+      {
+        "id": "n2",
+        "href": "track-your-order",
+        "title": "Track Your Order"
+      },
+      {
+        "id": "n3",
+        "href": "store-finder",
+        "title": "Store Finder"
+      },
+      {
+        "id": "n4",
+        "href": "faqs",
+        "title": "FAQs"
+      }
+    ]
+  },
+  {
+    "id": "t2",
+    "title": "ABOUT",
+    "navigation": [
+      {
+        "id": "n1",
+        "href": "about-us",
+        "title": "About Us"
+      },
+      {
+        "id": "n2",
+        "href": "contact-us",
+        "title": "Contact Us"
+      },
+      {
+        "id": "n3",
+        "href": "careers",
+        "title": "Careers"
+      },
+      {
+        "id": "n4",
+        "href": "become-an-affiliate",
+        "title": "Become an Affiliate"
+      }
+    ]
+  },
+  {
+    "id": "t3",
+    "title": "CATEGORIES",
+    "navigation": [
+      {
+        "id": "n1",
+        "href": "shirts",
+        "title": "Shirts"
+      },
+      {
+        "id": "n2",
+        "href": "jeans",
+        "title": "Jeans"
+      },
+      {
+        "id": "n3",
+        "href": "footwear",
+        "title": "Footwear"
+      },
+      {
+        "id": "n4",
+        "href": "accessories",
+        "title": "Accessories"
+      }
+    ]
+  }
+]
