@@ -1,0 +1,32 @@
+[
+  {
+    "id": "c1",
+    "href": "tank",
+    "image": "tank.png",
+    "title": "TANK"
+  },
+  {
+    "id": "c2",
+    "href": "shorts",
+    "image": "shorts.png",
+    "title": "SHORTS"
+  },
+  {
+    "id": "c3",
+    "href": "shirts",
+    "image": "shirts.png",
+    "title": "SHIRTS"
+  },
+  {
+    "id": "c4",
+    "href": "jeans",
+    "image": "jeans.png",
+    "title": "JEANS"
+  },
+  {
+    "id": "c5",
+    "href": "footwear",
+    "image": "footwear.png",
+    "title": "FOOTWEAR"
+  }
+]

@@ -9,7 +9,7 @@ interface ISubNavigationItemProps {
 const SubNavigationItem = ({ href, title }: ISubNavigationItemProps) => {
   return (
     <li>
-      <NavLink href={href} opacity="0.8">
+      <NavLink href={`/${href}`} opacity="0.8">
         {title}
       </NavLink>
     </li>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "image": "journal1.jpg",
+    "date": "MAY 15, 2025",
+    "caption": "Swim Jammers Endurance Long Racing Training Swimsuit"
+  },
+  {
+    "id": "2",
+    "image": "journal2.jpg",
+    "date": "JUNE 10, 2025",
+    "caption": "New Summer Collection: Beachwear Essentials"
+  },
+  {
+    "id": "3",
+    "image": "journal3.jpg",
+    "date": "JULY 5, 2025",
+    "caption": "The Best Running Gear for Long Distance Training"
+  }
+]

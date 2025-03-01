@@ -4,7 +4,6 @@ import "./globals.css";
 
 import MainTopBar from "@/components/main-layout/main-top-bar/main-top-bar";
 import MainHeader from "@/components/main-layout/main-header/main-header";
-import InstagramSection from "@/sections/main/instagram";
 import NavigationSection from "@/sections/main/navigation";
 import MainFooter from "@/components/main-layout/main-footer/main-footer";
 import MainPromotional from "@/components/main-layout/main-promotional";
@@ -31,7 +30,6 @@ const RootLayout = ({
         <MainHeader />
         <MainPromotional />
         {children}
-        <InstagramSection />
         <NavigationSection />
         <MainFooter />
       </body>

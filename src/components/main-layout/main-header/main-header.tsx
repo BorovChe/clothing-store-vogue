@@ -1,4 +1,4 @@
-import ResponsiveContainer from "@/components/commons/container";
+import MainContainer from "@/components/commons/main-container";
 import NavList from "./nav-list";
 import HeaderLogo from "./header-logo";
 import HeaderSearch from "./header-search";
@@ -8,7 +8,7 @@ import HeaderAccountLink from "./header-account-link";
 const MainHeader = () => {
   return (
     <header>
-      <ResponsiveContainer>
+      <MainContainer>
         <div className="flex justify-between items-center">
           <nav>
             <NavList />
@@ -18,7 +18,7 @@ const MainHeader = () => {
           <HeaderCartLink />
           <HeaderAccountLink />
         </div>
-      </ResponsiveContainer>
+      </MainContainer>
     </header>
   );
 };

@@ -1,7 +1,29 @@
+import MainContainer from "@/components/commons/main-container";
+import MainLink from "@/components/commons/main-link";
+import Image from "next/image";
+
 const NotFoundPage = () => {
   return (
     <section className="bg-[#1b161d]">
-      <h1>Not Found</h1>
+      <MainContainer>
+        <div className="flex justify-between items-center">
+          <Image
+            src="/images/not-found/404.png"
+            alt="Not Found 404"
+            width={554}
+            height={600}
+          />
+          <div className="max-w-[400px]">
+            <p>Error 404...</p>
+            <h1>Page not found</h1>
+            <p>
+              We looked everywhere for this page. Are you sure the website URL
+              is correct?
+            </p>
+            <MainLink href="/">GO TO HOMEPAGE</MainLink>
+          </div>
+        </div>
+      </MainContainer>
     </section>
   );
 };

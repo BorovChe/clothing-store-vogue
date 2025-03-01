@@ -9,6 +9,12 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "home-hero-gradient":
+          "linear-gradient(48deg, rgba(71, 119, 220, 0.65) 8.13%, rgba(111, 146, 218, 0.33) 61.05%, rgba(146, 169, 217, 0.06) 86.96%)",
+        "order-tracking-gradient":
+          "linear-gradient(338deg, #fff 22.77%, rgba(255, 255, 255, 0) 100%);",
+      },
       colors: {
         primary: {
           ffd5c5: "var(--primary-ffd5c5)",

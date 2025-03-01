@@ -1,4 +1,4 @@
-import CommonLink from "@/components/commons/common-link";
+import MainLink from "@/components/commons/main-link";
 import SectionTitle from "@/components/commons/section-title";
 import InstagramImagesList from "@/components/main-layout/main-instagram/instagram-images-list";
 
@@ -10,12 +10,12 @@ const InstagramSection = () => {
           <SectionTitle>Follow Our Instagram</SectionTitle>
         </div>
         <div className="max-w-[224px]  mx-auto mb-10">
-          <CommonLink
+          <MainLink
             href="https://www.instagram.com/"
             borderColor="secondary-eee"
           >
             FOLLOW US @store
-          </CommonLink>
+          </MainLink>
         </div>
         <InstagramImagesList />
       </div>

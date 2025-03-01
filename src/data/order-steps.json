@@ -1,0 +1,23 @@
+[
+  {
+    "id": "s1",
+    "icon": "point.svg",
+    "step": "1",
+    "title": "Get Your ID",
+    "caption": "We will answer any questions you may have about our online sales."
+  },
+  {
+    "id": "s2",
+    "icon": "user.svg",
+    "step": "2",
+    "title": "Enter Your ID",
+    "caption": "We will answer any questions you may have about our online sales."
+  },
+  {
+    "id": "s3",
+    "icon": "envelop.svg",
+    "step": "3",
+    "title": "Check Billing Email",
+    "caption": "We will answer any questions you may have about our online sales."
+  }
+]

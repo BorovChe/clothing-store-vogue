@@ -57,22 +57,22 @@
     "navigation": [
       {
         "id": "n1",
-        "href": "shirts",
+        "href": "collection/shirts",
         "title": "Shirts"
       },
       {
         "id": "n2",
-        "href": "jeans",
+        "href": "collection/jeans",
         "title": "Jeans"
       },
       {
         "id": "n3",
-        "href": "footwear",
+        "href": "collection/footwear",
         "title": "Footwear"
       },
       {
         "id": "n4",
-        "href": "accessories",
+        "href": "collection/accessories",
         "title": "Accessories"
       }
     ]
