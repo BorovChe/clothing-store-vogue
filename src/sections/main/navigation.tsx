@@ -1,4 +1,4 @@
-import MainContainer from "@/components/commons/main-container";
+import MainContainer from "@/components/common/main-container";
 import MainNavigationList from "@/components/main-layout/main-navigation/main-navigation-list";
 import NewsLetter from "@/components/main-layout/main-navigation/news-letter";
 

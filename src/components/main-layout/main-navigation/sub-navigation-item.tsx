@@ -1,4 +1,4 @@
-import NavLink from "@/components/commons/NavLink";
+import NavLink from "@/components/common/NavLink";
 
 interface ISubNavigationItemProps {
   id: string;

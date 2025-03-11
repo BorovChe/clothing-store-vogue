@@ -6,10 +6,10 @@ const MainLayout = ({
   children: React.ReactNode;
 }>) => {
   return (
-    <div>
+    <>
       {children}
       <InstagramSection />
-    </div>
+    </>
   );
 };
 

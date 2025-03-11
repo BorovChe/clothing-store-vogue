@@ -1,4 +1,4 @@
-import MainContainer from "@/components/commons/main-container";
+import MainContainer from "@/components/common/main-container";
 import OrderStepsList from "@/components/order-tracking/order-steps-list";
 import React from "react";
 

@@ -1,26 +1,32 @@
 [
   {
     "id": "m1",
-    "icon": "visa.svg"
+    "icon": "visa.svg",
+    "link": "https://www.visa.com.ua/"
   },
   {
     "id": "m2",
-    "icon": "pay-pal.svg"
+    "icon": "pay-pal.svg",
+    "link": "https://www.paypal.com/home"
   },
   {
     "id": "m3",
-    "icon": "master-card.svg"
+    "icon": "master-card.svg",
+    "link": "https://www.mastercard.com/"
   },
   {
     "id": "m4",
-    "icon": "discover.svg"
+    "icon": "discover.svg",
+    "link": "https://www.discover.com/"
   },
   {
     "id": "m5",
-    "icon": "diners-club.svg"
+    "icon": "diners-club.svg",
+    "link": "https://www.dinersclub.com/"
   },
   {
     "id": "m6",
-    "icon": "amex.svg"
+    "icon": "amex.svg",
+    "link": "https://www.americanexpress.com/"
   }
 ]

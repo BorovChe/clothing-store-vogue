@@ -1,4 +1,4 @@
-import MainContainer from "@/components/commons/main-container";
+import MainContainer from "@/components/common/main-container";
 import NavList from "./nav-list";
 import HeaderLogo from "./header-logo";
 import HeaderSearch from "./header-search";

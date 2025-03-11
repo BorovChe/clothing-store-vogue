@@ -1,5 +1,5 @@
 const ShippingReturnsPage = () => {
-  return <div></div>;
+  return <></>;
 };
 
 export default ShippingReturnsPage;

@@ -1,5 +1,5 @@
 const BecomeAnAffiliatePage = () => {
-  return <div></div>;
+  return <></>;
 };
 
 export default BecomeAnAffiliatePage;

@@ -1,4 +1,4 @@
-import IJournal from "@/types/journal";
+import IJournal from "@/interfaces/journal";
 import JournalItem from "./journal-item";
 
 interface IJournalsListProps {

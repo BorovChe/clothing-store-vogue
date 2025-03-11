@@ -1,5 +1,5 @@
-import MainLink from "@/components/commons/main-link";
-import MainContainer from "@/components/commons/main-container";
+import MainLink from "@/components/common/main-link";
+import MainContainer from "@/components/common/main-container";
 import HeroBackground from "@/components/home/hero-background";
 
 const HeroSection = () => {

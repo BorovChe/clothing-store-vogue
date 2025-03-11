@@ -1,7 +1,7 @@
-import MainContainer from "@/components/commons/main-container";
-import SectionTitle from "@/components/commons/section-title";
+import MainContainer from "@/components/common/main-container";
+import SectionTitle from "@/components/common/section-title";
 import JournalsList from "@/components/journal/journals-list";
-import IJournal from "@/types/journal";
+import IJournal from "@/interfaces/journal";
 
 interface IJournalSectionProps {
   sectionTitle: string;

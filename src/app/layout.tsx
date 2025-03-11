@@ -29,8 +29,10 @@ const RootLayout = ({
         <MainTopBar />
         <MainHeader />
         <MainPromotional />
-        {children}
-        <NavigationSection />
+        <main>
+          {children}
+          <NavigationSection />
+        </main>
         <MainFooter />
       </body>
     </html>

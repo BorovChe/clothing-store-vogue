@@ -1,4 +1,4 @@
-import ResponsiveContainer from "@/components/commons/main-container";
+import ResponsiveContainer from "@/components/common/main-container";
 import TopBarCurrency from "./top-bar-currency";
 
 const MainTopBar = () => {

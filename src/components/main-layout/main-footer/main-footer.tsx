@@ -1,4 +1,4 @@
-import MainContainer from "@/components/commons/main-container";
+import MainContainer from "@/components/common/main-container";
 import PaymentMethodsList from "./payment-methods-list";
 import FooterTerm from "./term";
 
@@ -6,7 +6,7 @@ const MainFooter = () => {
   return (
     <footer className="py-4">
       <MainContainer>
-        <div className="flex justify-between">
+        <div className="flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center">
           <FooterTerm />
           <PaymentMethodsList />
         </div>

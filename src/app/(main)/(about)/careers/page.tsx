@@ -1,7 +1,5 @@
-import React from "react";
-
 const CareersPage = () => {
-  return <div></div>;
+  return <></>;
 };
 
 export default CareersPage;

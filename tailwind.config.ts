@@ -23,6 +23,7 @@ export default {
         },
         secondary: {
           "000": "var(--secondary-000000)",
+          "444": "var(--secondary-444444)",
           "666": "var(--secondary-666666)",
           "999": "var(--secondary-999999)",
           e6e6e6: "var(--secondary-e6e6e6)",

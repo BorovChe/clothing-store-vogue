@@ -1,5 +1,5 @@
-import MainContainer from "@/components/commons/main-container";
-import SectionTitle from "@/components/commons/section-title";
+import MainContainer from "@/components/common/main-container";
+import SectionTitle from "@/components/common/section-title";
 import ShopCategoriesList from "@/components/home/shop-categories-list";
 
 const ShopCategoriesSection = () => {

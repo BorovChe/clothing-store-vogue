@@ -1,5 +1,5 @@
-import MainContainer from "@/components/commons/main-container";
-import MainTitle from "@/components/commons/main-title";
+import MainContainer from "@/components/common/main-container";
+import MainTitle from "@/components/common/main-title";
 import OrderTrackingBg from "@/components/order-tracking/order-tracking-bg";
 import OrderStepsForm from "@/components/order-tracking/order-tracking-form";
 

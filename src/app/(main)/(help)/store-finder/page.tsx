@@ -1,5 +1,5 @@
 const StoreFinderPage = () => {
-  return <div></div>;
+  return <></>;
 };
 
 export default StoreFinderPage;

@@ -1,5 +1,5 @@
-import MainLink from "@/components/commons/main-link";
-import SectionTitle from "@/components/commons/section-title";
+import MainLink from "@/components/common/main-link";
+import SectionTitle from "@/components/common/section-title";
 import InstagramImagesList from "@/components/main-layout/main-instagram/instagram-images-list";
 
 const InstagramSection = () => {

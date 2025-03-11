@@ -1,4 +1,4 @@
-import IJournalProps from "@/types/journal";
+import IJournalProps from "@/interfaces/journal";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "002",
+    "name": "Nike Dri-FIT Training Hoodie",
+    "price": { "current": 180, "old": 220, "discount": 18 },
+    "currency": "USD",
+    "previewImage": "https://static.staff-clothes.com/media/cache/image_product_desktop_catalog/image_product/0003/92/b940607322b84f33bd1f2f45a45e11b5.jpeg",
+    "mainImages": [
+      "https://static.staff-clothes.com/uploads/media/image_product/0003/92/b940607322b84f33bd1f2f45a45e11b5.jpeg",
+      "https://static.staff-clothes.com/uploads/media/image_product/0003/92/0da4a523cec34f1b888c20a38deaa57c.jpeg",
+      "https://static.staff-clothes.com/uploads/media/image_product/0003/92/f254ebf705564f0084ae99d028f84dd9.jpeg"
+    ],
+    "deskImages": [
+      "https://static.staff-clothes.com/media/cache/image_product_desktop_product_thumbnail/image_product/0003/92/b940607322b84f33bd1f2f45a45e11b5.jpeg",
+      "https://static.staff-clothes.com/media/cache/image_product_desktop_product_thumbnail/image_product/0003/92/0da4a523cec34f1b888c20a38deaa57c.jpeg",
+      "https://static.staff-clothes.com/media/cache/image_product_desktop_product_thumbnail/image_product/0003/92/f254ebf705564f0084ae99d028f84dd9.jpeg",
+      "https://static.staff-clothes.com/media/cache/image_product_desktop_product_thumbnail/image_product/0003/92/f254ebf705564f0084ae99d028f84dd9.jpeg"
+    ],
+    "variants": {
+      "gray": { "S": 2, "M": 4, "L": 6, "XL": 3 },
+      "navy": { "M": 3, "L": 4, "XL": 5, "2XL": 2 },
+      "white": { "S": 5, "M": 6, "L": 7, "XL": 4, "2XL": 3 },
+      "red": { "S": 3, "M": 5, "L": 2, "2XL": 3 },
+      "black": { "S": 0, "M": 0, "L": 0, "XL": 0 }
+    },
+    "category": "Hoodies",
+    "tags": ["Hoodies", "Men"],
+    "rating": 4.5,
+    "stock": true,
+    "description": "Comfortable and breathable training hoodie with sweat-wicking fabric.",
+    "features": [
+      "Soft fleece lining for warmth",
+      "Adjustable hood",
+      "Ribbed cuffs for a snug fit"
+    ],
+    "shipping": "Free shipping on orders over $150",
+    "sku": "502",
+    "actions": {
+      "addToBag": true,
+      "addToWishlist": true
+    },
+    "reviews": [
+      {
+        "author": "Mike Johnson",
+        "rating": 5,
+        "comment": "Very comfortable and perfect for gym sessions!"
+      }
+    ],
+    "totalStock": 35
+  },
+  {
+    "id": "003",
+    "name": "Adidas Performance Training Pants",
+    "price": { "current": 90, "old": 120, "discount": 25 },
+    "currency": "USD",
+    "previewImage": "https://static.staff-clothes.com/media/cache/image_product_desktop_catalog/image_product/0003/92/b940607322b84f33bd1f2f45a45e11b5.jpeg",
+    "mainImages": [
+      "https://static.staff-clothes.com/uploads/media/image_product/0003/92/b940607322b84f33bd1f2f45a45e11b5.jpeg",
+      "https://static.staff-clothes.com/uploads/media/image_product/0003/92/0da4a523cec34f1b888c20a38deaa57c.jpeg",
+      "https://static.staff-clothes.com/uploads/media/image_product/0003/92/f254ebf705564f0084ae99d028f84dd9.jpeg"
+    ],
+    "deskImages": [
+      "https://static.staff-clothes.com/media/cache/image_product_desktop_product_thumbnail/image_product/0003/92/b940607322b84f33bd1f2f45a45e11b5.jpeg",
+      "https://static.staff-clothes.com/media/cache/image_product_desktop_product_thumbnail/image_product/0003/92/0da4a523cec34f1b888c20a38deaa57c.jpeg",
+      "https://static.staff-clothes.com/media/cache/image_product_desktop_product_thumbnail/image_product/0003/92/f254ebf705564f0084ae99d028f84dd9.jpeg",
+      "https://static.staff-clothes.com/media/cache/image_product_desktop_product_thumbnail/image_product/0003/92/f254ebf705564f0084ae99d028f84dd9.jpeg"
+    ],
+    "variants": {
+      "black": { "M": 3, "L": 5, "XL": 7 },
+      "white": { "S": 2, "M": 4, "L": 3 },
+      "gray": { "S": 0, "M": 0, "L": 0, "XL": 0 }
+    },
+    "category": "Pants",
+    "tags": ["Pants", "Men"],
+    "rating": 4.6,
+    "stock": true,
+    "description": "Lightweight and flexible pants designed for high-performance training.",
+    "features": [
+      "Elastic waistband with drawcord",
+      "Moisture-wicking fabric",
+      "Tapered fit"
+    ],
+    "shipping": "Standard shipping within 5-7 business days",
+    "sku": "503",
+    "actions": {
+      "addToBag": true,
+      "addToWishlist": true
+    },
+    "reviews": [
+      {
+        "author": "Sarah Lee",
+        "rating": 4,
+        "comment": "Great fit, but a bit long for shorter individuals."
+      }
+    ],
+    "totalStock": 22
+  }
+]

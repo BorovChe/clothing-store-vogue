@@ -1,4 +1,4 @@
-import MainTitle from "@/components/commons/main-title";
+import MainTitle from "@/components/common/main-title";
 import WishlistTable from "@/components/wishlist/wishlist-table";
 
 const WishlistSection = () => {

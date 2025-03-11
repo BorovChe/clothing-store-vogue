@@ -1,5 +1,5 @@
 const JournalPage = () => {
-  return <main></main>;
+  return <></>;
 };
 
 export default JournalPage;
