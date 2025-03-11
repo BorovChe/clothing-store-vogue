@@ -11,7 +11,7 @@ const DetailsPage = async ({ params }: IDetailsPageProps) => {
 
   return (
     <div>
-      <p>{productDetails.description}</p>
+      <p>{productDetails?.description}</p>
     </div>
   );
 };

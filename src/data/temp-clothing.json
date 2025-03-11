@@ -17,11 +17,11 @@
       "https://static.staff-clothes.com/media/cache/image_product_desktop_product_thumbnail/image_product/0003/92/f254ebf705564f0084ae99d028f84dd9.jpeg"
     ],
     "variants": {
-      "gray": { "S": 2, "M": 4, "L": 6, "XL": 3 },
-      "navy": { "M": 3, "L": 4, "XL": 5, "2XL": 2 },
-      "white": { "S": 5, "M": 6, "L": 7, "XL": 4, "2XL": 3 },
-      "red": { "S": 3, "M": 5, "L": 2, "2XL": 3 },
-      "black": { "S": 0, "M": 0, "L": 0, "XL": 0 }
+      "red": { "S": 0, "M": 2, "L": 4, "XL": 1, "2XL": 3 },
+      "black": { "S": 1, "M": 0, "L": 5, "XL": 3, "2XL": 2 },
+      "white": { "S": 3, "M": 1, "L": 0, "XL": 4, "2XL": 5 },
+      "gray": { "S": 2, "M": 3, "L": 1, "XL": 0, "2XL": 0 },
+      "navy": { "S": 0, "M": 4, "L": 3, "XL": 2, "2XL": 1 }
     },
     "category": "Hoodies",
     "tags": ["Hoodies", "Men"],
@@ -66,9 +66,11 @@
       "https://static.staff-clothes.com/media/cache/image_product_desktop_product_thumbnail/image_product/0003/92/f254ebf705564f0084ae99d028f84dd9.jpeg"
     ],
     "variants": {
-      "black": { "M": 3, "L": 5, "XL": 7 },
-      "white": { "S": 2, "M": 4, "L": 3 },
-      "gray": { "S": 0, "M": 0, "L": 0, "XL": 0 }
+      "red": { "S": 3, "M": 5, "L": 2, "XL": 0, "2XL": 3 },
+      "black": { "S": 0, "M": 3, "L": 5, "XL": 7, "2XL": 0 },
+      "white": { "S": 2, "M": 4, "L": 3, "XL": 0, "2XL": 0 },
+      "gray": null,
+      "navy": { "S": 0, "M": 3, "L": 4, "XL": 5, "2XL": 2 }
     },
     "category": "Pants",
     "tags": ["Pants", "Men"],

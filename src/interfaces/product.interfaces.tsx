@@ -16,7 +16,7 @@ export interface IActions {
 }
 
 export interface IVariants {
-  [color: string]: Record<string, number | null>; // Используем `null` вместо `undefined` для отсутствующих значений
+  [key: string]: Record<string, number> | null;
 }
 
 export interface IProduct {

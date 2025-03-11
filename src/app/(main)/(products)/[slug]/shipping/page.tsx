@@ -9,7 +9,7 @@ const ShippingPage = async ({ params }: IShippingPageProps) => {
 
   const productDetails = await getProductDetails(slug);
 
-  return <div>{productDetails.shipping}</div>;
+  return <div>{productDetails?.shipping}</div>;
 };
 
 export default ShippingPage;

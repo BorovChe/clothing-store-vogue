@@ -9,7 +9,7 @@ const FeaturePage = async ({ params }: IFeaturePageProps) => {
 
   const productDetails = await getProductDetails(slug);
 
-  return <div>{productDetails.features[0]}</div>;
+  return <div>{productDetails?.features[0]}</div>;
 };
 
 export default FeaturePage;
