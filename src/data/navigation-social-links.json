@@ -2,22 +2,16 @@
   {
     "id": "n1",
     "href": "https://www.facebook.com/",
-    "icon": "facebook.svg",
-    "width": 8,
-    "height": 14
+    "icon": "facebook.svg"
   },
   {
     "id": "n2",
     "href": "https://www.instagram.com/",
-    "icon": "instagram.svg",
-    "width": 12,
-    "height": 12
+    "icon": "instagram.svg"
   },
   {
     "id": "n3",
     "href": "https://www.pinterest.com/",
-    "icon": "pinterest.svg",
-    "width": 10,
-    "height": 12
+    "icon": "pinterest.svg"
   }
 ]

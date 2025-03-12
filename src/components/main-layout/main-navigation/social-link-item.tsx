@@ -4,24 +4,17 @@ import Link from "next/link";
 interface ISocialLinkItemProps {
   href: string;
   icon: string;
-  width: number;
-  height: number;
 }
 
-const SocialLinkItem = ({
-  href,
-  icon,
-  width,
-  height,
-}: ISocialLinkItemProps) => {
+const SocialLinkItem = ({ href, icon }: ISocialLinkItemProps) => {
   return (
-    <li className="w-4">
-      <Link href={href} target="_blank">
+    <li className="w-4 flex items-center justify-center h-4 transition-transform duration-200 hover:scale-110">
+      <Link href={href} target="_blank" className="relative w-full h-full">
         <Image
           src={`/icons/social-links/${icon}`}
           alt={icon}
-          width={width}
-          height={height}
+          fill
+          className="transition-brightness duration-200 hover:brightness-0"
         />
       </Link>
     </li>

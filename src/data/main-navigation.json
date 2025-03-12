@@ -2,25 +2,26 @@
   {
     "id": "t1",
     "title": "HELP",
+    "mainHref": "/faqs",
     "navigation": [
       {
         "id": "n1",
-        "href": "shipping-returns",
+        "href": "/shipping-returns",
         "title": "Shipping & Returns"
       },
       {
         "id": "n2",
-        "href": "track-your-order",
+        "href": "/track-your-order",
         "title": "Track Your Order"
       },
       {
         "id": "n3",
-        "href": "store-finder",
+        "href": "/store-finder",
         "title": "Store Finder"
       },
       {
         "id": "n4",
-        "href": "faqs",
+        "href": "/faqs",
         "title": "FAQs"
       }
     ]
@@ -28,25 +29,26 @@
   {
     "id": "t2",
     "title": "ABOUT",
+    "mainHref": "/about-us",
     "navigation": [
       {
         "id": "n1",
-        "href": "about-us",
+        "href": "/about-us",
         "title": "About Us"
       },
       {
         "id": "n2",
-        "href": "contact-us",
+        "href": "/contact-us",
         "title": "Contact Us"
       },
       {
         "id": "n3",
-        "href": "careers",
+        "href": "/careers",
         "title": "Careers"
       },
       {
         "id": "n4",
-        "href": "become-an-affiliate",
+        "href": "/become-an-affiliate",
         "title": "Become an Affiliate"
       }
     ]
@@ -54,25 +56,26 @@
   {
     "id": "t3",
     "title": "CATEGORIES",
+    "mainHref": "/collection",
     "navigation": [
       {
         "id": "n1",
-        "href": "collection/shirts",
+        "href": "/collection/shirts",
         "title": "Shirts"
       },
       {
         "id": "n2",
-        "href": "collection/jeans",
+        "href": "/collection/jeans",
         "title": "Jeans"
       },
       {
         "id": "n3",
-        "href": "collection/footwear",
+        "href": "/collection/footwear",
         "title": "Footwear"
       },
       {
         "id": "n4",
-        "href": "collection/accessories",
+        "href": "/collection/accessories",
         "title": "Accessories"
       }
     ]

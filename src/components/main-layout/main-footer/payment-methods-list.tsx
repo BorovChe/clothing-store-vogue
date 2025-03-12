@@ -10,15 +10,14 @@ const PaymentMethodsList = () => {
       {paymentMethods.map(({ id, icon, link }: IPaymentMethod) => (
         <li
           key={id}
-          className="transition-transform duration-200 hover:scale-110"
+          className="w-[38px] h-[24px] md:w-[52px] md:h-[32px] transition-transform duration-200 hover:scale-110"
         >
-          <Link href={link} target="_blank">
-            <Image
-              src={`/icons/payment-methods/${icon}`}
-              alt={icon}
-              width={52}
-              height={32}
-            />
+          <Link
+            href={link}
+            target="_blank"
+            className="relative block w-full h-full"
+          >
+            <Image src={`/icons/payment-methods/${icon}`} alt={icon} fill />
           </Link>
         </li>
       ))}
@@ -27,3 +26,8 @@ const PaymentMethodsList = () => {
 };
 
 export default PaymentMethodsList;
+
+// sizes="10vw"
+// width={52}
+// height={32}
+// className="object-cover"

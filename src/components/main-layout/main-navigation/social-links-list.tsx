@@ -3,7 +3,7 @@ import SocialLinkItem from "./social-link-item";
 
 const SocialLinksList = () => {
   return (
-    <ul className="flex gap-4">
+    <ul className="flex gap-4 items-center">
       {socialsLinks.map((link) => (
         <SocialLinkItem key={link.id} {...link} />
       ))}
