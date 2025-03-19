@@ -3,13 +3,15 @@ import CollectionBannerSection from "@/sections/collection/collection-banner";
 
 interface ICollectionPageProps {
   searchParams?: Promise<{
-    query?: string;
-    page?: string;
+    category?: string;
+    color?: string;
+    size?: string;
+    price?: string;
   }>;
 }
 
 const CollectionPage = async ({ searchParams }: ICollectionPageProps) => {
-  const queryParams = await searchParams;
+  const queryParams = searchParams ? await searchParams : {};
 
   return (
     <>
