@@ -7,7 +7,6 @@ interface ICollectionSectionProps {
 }
 
 const CollectionSection = ({ queryParams }: ICollectionSectionProps) => {
-  console.log(queryParams);
   return (
     <section>
       <MainContainer>

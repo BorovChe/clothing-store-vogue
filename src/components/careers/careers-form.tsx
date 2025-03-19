@@ -1,4 +1,6 @@
-import { jobTitles, locations, departments } from "@/data/careers-selects.json";
+import careersSelects from "@/data/careers-selects.json";
+
+const { jobTitles, locations, departments } = careersSelects;
 
 const CareersForm = () => {
   return (

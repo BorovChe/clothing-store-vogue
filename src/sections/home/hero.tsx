@@ -9,7 +9,7 @@ const HeroSection = () => {
       <MainContainer>
         <div className="max-w-[564px]">
           <h1 className="mb-3 text-[46px] md:text-[56px]/[1.2] tracking-tight">
-            Summer's Coming...
+            Summer&apos;s Coming...
           </h1>
           <p className="mb-7 max-w-[454px] font-medium leading-[1.5]">
             We started with humble beginnings — selling out of our basement and
