@@ -3,7 +3,12 @@ import CollectionList from "@/components/collection/collection-list";
 import MainContainer from "@/components/common/main-container";
 
 interface ICollectionSectionProps {
-  queryParams: Record<string, string>;
+  queryParams: {
+    category?: string;
+    color?: string;
+    size?: string;
+    price?: string;
+  };
 }
 
 const CollectionSection = ({ queryParams }: ICollectionSectionProps) => {
@@ -16,7 +21,7 @@ const CollectionSection = ({ queryParams }: ICollectionSectionProps) => {
             <CollectionFilter />
           </div>
           <div>
-            <h2>{queryParams.category}</h2>
+            <h2>{queryParams.category ? queryParams.category : "All"}</h2>
             <p>119 Styles Found</p>
             <div>
               <label htmlFor="sort">SORT BY</label>
