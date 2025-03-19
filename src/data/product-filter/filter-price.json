@@ -1,0 +1,26 @@
+[
+  {
+    "id": "p1",
+    "category": "price",
+    "value": "10-100",
+    "title": "$10 - $100"
+  },
+  {
+    "id": "p2",
+    "category": "price",
+    "value": "100-200",
+    "title": "$100 - $200"
+  },
+  {
+    "id": "p3",
+    "category": "price",
+    "value": "200-300",
+    "title": "$200 - $300"
+  },
+  {
+    "id": "p4",
+    "category": "price",
+    "value": "300-400",
+    "title": "$300 - $400"
+  }
+]

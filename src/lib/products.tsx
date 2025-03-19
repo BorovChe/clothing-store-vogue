@@ -1,4 +1,4 @@
-import products from "@/data/temp-clothing.json";
+import products from "@/data/temp/temp-clothing.json";
 import { IProduct } from "@/interfaces/product.interfaces";
 
 export async function getAllProducts(): Promise<IProduct[]> {
@@ -9,8 +9,10 @@ export async function getAllProducts(): Promise<IProduct[]> {
   return productsList;
 }
 
-export async function getProductDetails(id: string): Promise<IProduct | null> {
-  const productItem = products.find((item) => item.id === id) || null;
+export async function getProductDetails(
+  slug: string
+): Promise<IProduct | null> {
+  const productItem = products.find((item) => item.slug === slug) || null;
 
   await new Promise((resolve) => setTimeout(resolve, 2000));
 

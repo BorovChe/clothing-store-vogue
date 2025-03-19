@@ -2,6 +2,7 @@
   {
     "id": "002",
     "name": "Nike Dri-FIT Training Hoodie",
+    "slug": "nike-dri-fit-training-hoodie",
     "price": { "current": 180, "old": 220, "discount": 18 },
     "currency": "USD",
     "previewImage": "https://static.staff-clothes.com/media/cache/image_product_desktop_catalog/image_product/0003/92/b940607322b84f33bd1f2f45a45e11b5.jpeg",
@@ -51,6 +52,7 @@
   {
     "id": "003",
     "name": "Adidas Performance Training Pants",
+    "slug": "adidas-performance-training-pants",
     "price": { "current": 90, "old": 120, "discount": 25 },
     "currency": "USD",
     "previewImage": "https://static.staff-clothes.com/media/cache/image_product_desktop_catalog/image_product/0003/92/b940607322b84f33bd1f2f45a45e11b5.jpeg",

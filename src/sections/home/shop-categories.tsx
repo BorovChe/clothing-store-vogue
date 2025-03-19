@@ -4,9 +4,11 @@ import ShopCategoriesList from "@/components/home/shop-categories-list";
 
 const ShopCategoriesSection = () => {
   return (
-    <section>
+    <section className="pb-[58px]">
       <MainContainer>
-        <SectionTitle>Shop by</SectionTitle>
+        <div className="mb-10">
+          <SectionTitle>Shop by</SectionTitle>
+        </div>
         <ShopCategoriesList />
       </MainContainer>
     </section>

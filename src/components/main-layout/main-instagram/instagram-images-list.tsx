@@ -3,7 +3,7 @@ import instagramImages from "@/data/instagram-images.json";
 
 const InstagramImagesList = () => {
   return (
-    <ul className="flex mx-auto">
+    <ul className="flex flex-wrap md:flex-nowrap justify-center">
       {instagramImages.map(({ id, image }) => (
         <InstagramImageItem key={id} imagePath={image} />
       ))}

@@ -60,23 +60,23 @@
     "navigation": [
       {
         "id": "n1",
-        "href": "/collection/shirts",
+        "href": "/collection?category=shirts",
         "title": "Shirts"
       },
       {
         "id": "n2",
-        "href": "/collection/jeans",
+        "href": "/collection?category=jeans",
         "title": "Jeans"
       },
       {
-        "id": "n3",
-        "href": "/collection/footwear",
-        "title": "Footwear"
+        "id": "n4",
+        "href": "/collection?category=shorts",
+        "title": "Shorts"
       },
       {
-        "id": "n4",
-        "href": "/collection/accessories",
-        "title": "Accessories"
+        "id": "n3",
+        "href": "/collection?category=footwear",
+        "title": "Footwear"
       }
     ]
   }

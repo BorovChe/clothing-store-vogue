@@ -4,15 +4,16 @@ import JournalsList from "@/components/journal/journals-list";
 import IJournal from "@/interfaces/journal";
 
 interface IJournalSectionProps {
-  sectionTitle: string;
   journals: IJournal[];
 }
 
-const JournalSection = ({ sectionTitle, journals }: IJournalSectionProps) => {
+const JournalSection = ({ journals }: IJournalSectionProps) => {
   return (
-    <section>
+    <section className="pt-[100px] pb-20">
       <MainContainer>
-        <SectionTitle>{sectionTitle}</SectionTitle>
+        <div className="mb-10">
+          <SectionTitle>From the Journal</SectionTitle>
+        </div>
         <JournalsList journals={journals} />
       </MainContainer>
     </section>

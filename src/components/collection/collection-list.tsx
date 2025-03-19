@@ -1,5 +1,5 @@
-import clothes from "@/data/temp-clothing.json";
 import CollectionItem from "./collection-item";
+import clothes from "@/data/temp/temp-clothing.json";
 
 const CollectionList = () => {
   return (

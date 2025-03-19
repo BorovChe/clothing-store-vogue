@@ -1,0 +1,32 @@
+[
+  {
+    "id": "s1",
+    "category": "size",
+    "value": "s",
+    "title": "S"
+  },
+  {
+    "id": "s2",
+    "category": "size",
+    "value": "m",
+    "title": "M"
+  },
+  {
+    "id": "s3",
+    "category": "size",
+    "value": "l",
+    "title": "L"
+  },
+  {
+    "id": "s4",
+    "category": "size",
+    "value": "xl",
+    "title": "XL"
+  },
+  {
+    "id": "s5",
+    "category": "size",
+    "value": "2xl",
+    "title": "2XL"
+  }
+]

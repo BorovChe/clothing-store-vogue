@@ -1,0 +1,32 @@
+[
+  {
+    "id": "c1",
+    "category": "category",
+    "value": "t-shirts",
+    "title": "T-shirts"
+  },
+  {
+    "id": "c2",
+    "category": "category",
+    "value": "shorts",
+    "title": "Shorts"
+  },
+  {
+    "id": "c3",
+    "category": "category",
+    "value": "shirts",
+    "title": "Shirts"
+  },
+  {
+    "id": "c4",
+    "category": "category",
+    "value": "jeans",
+    "title": "Jeans"
+  },
+  {
+    "id": "c5",
+    "category": "category",
+    "value": "footwear",
+    "title": "Footwear"
+  }
+]

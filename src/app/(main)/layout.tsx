@@ -1,10 +1,12 @@
+import { ReactNode } from "react";
+
 import InstagramSection from "@/sections/main/instagram";
 
-const MainLayout = ({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) => {
+interface IMainLayoutProps {
+  children: ReactNode;
+}
+
+const MainLayout = ({ children }: IMainLayoutProps) => {
   return (
     <>
       {children}

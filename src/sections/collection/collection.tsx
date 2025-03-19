@@ -1,8 +1,13 @@
-import CollectionFilter from "@/components/collection/collection-filter";
+import CollectionFilter from "@/components/collection/collection-filter-form";
 import CollectionList from "@/components/collection/collection-list";
 import MainContainer from "@/components/common/main-container";
 
-const CollectionSection = () => {
+interface ICollectionSectionProps {
+  queryParams: Record<string, string>;
+}
+
+const CollectionSection = ({ queryParams }: ICollectionSectionProps) => {
+  console.log(queryParams);
   return (
     <section>
       <MainContainer>
@@ -12,7 +17,7 @@ const CollectionSection = () => {
             <CollectionFilter />
           </div>
           <div>
-            <h2>Jeans</h2>
+            <h2>{queryParams.category}</h2>
             <p>119 Styles Found</p>
             <div>
               <label htmlFor="sort">SORT BY</label>

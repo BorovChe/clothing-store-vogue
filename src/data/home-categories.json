@@ -1,0 +1,23 @@
+[
+  {
+    "id": "hc1",
+    "href": "/collection?category=jeans",
+    "image": "jeans.jpg",
+    "title": "JEANS",
+    "caption": "Must have item"
+  },
+  {
+    "id": "hc2",
+    "href": "/collection?category=shirts",
+    "image": "shirts.jpg",
+    "title": "SHIRTS",
+    "caption": "Summer Vibe"
+  },
+  {
+    "id": "hc3",
+    "href": "/collection?category=footwear",
+    "image": "footwear.jpg",
+    "title": "FOOTWEAR",
+    "caption": "Take you to anywhere"
+  }
+]

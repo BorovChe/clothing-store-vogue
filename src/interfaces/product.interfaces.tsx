@@ -22,6 +22,7 @@ export interface IVariants {
 export interface IProduct {
   id: string;
   name: string;
+  slug: string;
   price: IPrice;
   currency: string;
   previewImage: string;

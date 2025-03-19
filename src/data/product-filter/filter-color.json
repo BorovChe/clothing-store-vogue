@@ -1,0 +1,32 @@
+[
+  {
+    "id": "col1",
+    "category": "color",
+    "value": "red",
+    "title": "Red"
+  },
+  {
+    "id": "col2",
+    "category": "color",
+    "value": "black",
+    "title": "Black"
+  },
+  {
+    "id": "col3",
+    "category": "color",
+    "value": "white",
+    "title": "White"
+  },
+  {
+    "id": "col4",
+    "category": "color",
+    "value": "gray",
+    "title": "Gray"
+  },
+  {
+    "id": "col5",
+    "category": "color",
+    "value": "brown",
+    "title": "Brown"
+  }
+]

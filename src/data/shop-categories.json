@@ -1,31 +1,31 @@
 [
   {
     "id": "c1",
-    "href": "tank",
+    "href": "/collection?category=t-shirts",
     "image": "tank.png",
-    "title": "TANK"
+    "title": "T-SHIRTS"
   },
   {
     "id": "c2",
-    "href": "shorts",
+    "href": "/collection?category=shorts",
     "image": "shorts.png",
     "title": "SHORTS"
   },
   {
     "id": "c3",
-    "href": "shirts",
+    "href": "/collection?category=shirts",
     "image": "shirts.png",
     "title": "SHIRTS"
   },
   {
     "id": "c4",
-    "href": "jeans",
+    "href": "/collection?category=jeans",
     "image": "jeans.png",
     "title": "JEANS"
   },
   {
     "id": "c5",
-    "href": "footwear",
+    "href": "/collection?category=footwear",
     "image": "footwear.png",
     "title": "FOOTWEAR"
   }

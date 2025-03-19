@@ -8,14 +8,11 @@ const PaymentMethodsList = () => {
   return (
     <ul className="flex gap-3">
       {paymentMethods.map(({ id, icon, link }: IPaymentMethod) => (
-        <li
-          key={id}
-          className="w-[38px] h-[24px] md:w-[52px] md:h-[32px] transition-transform duration-200 hover:scale-110"
-        >
+        <li key={id} className="w-[38px] h-[24px] md:w-[52px] md:h-[32px] ">
           <Link
             href={link}
             target="_blank"
-            className="relative block w-full h-full"
+            className="relative block w-full h-full transition-transform duration-300 hover:scale-110 focus:scale-110 outline-none"
           >
             <Image src={`/icons/payment-methods/${icon}`} alt={icon} fill />
           </Link>
@@ -26,8 +23,3 @@ const PaymentMethodsList = () => {
 };
 
 export default PaymentMethodsList;
-
-// sizes="10vw"
-// width={52}
-// height={32}
-// className="object-cover"

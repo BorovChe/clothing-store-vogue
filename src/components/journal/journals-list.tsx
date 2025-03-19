@@ -1,5 +1,5 @@
-import IJournal from "@/interfaces/journal";
 import JournalItem from "./journal-item";
+import IJournal from "@/interfaces/journal";
 
 interface IJournalsListProps {
   journals: IJournal[];
@@ -7,7 +7,7 @@ interface IJournalsListProps {
 
 const JournalsList = ({ journals }: IJournalsListProps) => {
   return (
-    <ul className="flex gap-[30px]">
+    <ul className="flex flex-wrap justify-center gap-[30px]">
       {journals.map((journal) => (
         <JournalItem key={journal.id} {...journal} />
       ))}

@@ -14,10 +14,7 @@ const MainNavigationItem = ({
 }: IMainNavigationItemProps) => {
   return (
     <li className="min-w-[134px]">
-      <Link
-        href={mainHref}
-        className="inline-block mb-6 transition-transform duration-200 hover:scale-110"
-      >
+      <Link href={mainHref} className="inline-block mb-6 outline-none">
         <h3 className="tracking-[0.12em] leading-normal font-bold">{title}</h3>
       </Link>
       <SubNavigationList navigation={navigation} />

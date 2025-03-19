@@ -8,13 +8,18 @@ interface ISocialLinkItemProps {
 
 const SocialLinkItem = ({ href, icon }: ISocialLinkItemProps) => {
   return (
-    <li className="w-4 flex items-center justify-center h-4 transition-transform duration-200 hover:scale-110">
-      <Link href={href} target="_blank" className="relative w-full h-full">
+    <li className="w-4 flex items-center justify-center h-4">
+      <Link
+        href={href}
+        target="_blank"
+        className="relative w-full h-full transition-transform duration-300 hover:scale-110
+         focus:scale-110 focus:brightness-0 outline-none"
+      >
         <Image
           src={`/icons/social-links/${icon}`}
           alt={icon}
           fill
-          className="transition-brightness duration-200 hover:brightness-0"
+          className="transition-brightness duration-300 hover:brightness-0"
         />
       </Link>
     </li>

@@ -10,7 +10,7 @@ const SubNavigationList = ({ navigation }: ISubNavigationListProps) => {
       {navigation.map(({ id, href, title }) => (
         <li key={id}>
           <Link
-            className="text-secondary-000 font-medium leading-normal opacity-80 transition-opacity duration-200 hover:opacity-100"
+            className="text-secondary-000 font-medium leading-normal opacity-80 transition-opacity duration-300 hover:opacity-100 focus:opacity-100 outline-none"
             href={href}
           >
             {title}

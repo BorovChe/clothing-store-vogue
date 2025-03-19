@@ -1,4 +1,4 @@
-import MainLink from "@/components/common/main-link";
+import MainLink from "@/components/common/links/main-link";
 
 const NeedHelpSection = () => {
   return (

@@ -1,0 +1,29 @@
+{
+  "jobTitles": [
+    "Software Engineer",
+    "Product Manager",
+    "UI/UX Designer",
+    "Data Analyst",
+    "Marketing Specialist",
+    "Sales Manager",
+    "Customer Support"
+  ],
+  "locations": [
+    "San Francisco, CA",
+    "New York, NY",
+    "Los Angeles, CA",
+    "Austin, TX",
+    "Seattle, WA",
+    "Chicago, IL",
+    "Remote"
+  ],
+  "departments": [
+    "Engineering",
+    "Product Management",
+    "Design",
+    "Data & Analytics",
+    "Marketing",
+    "Sales",
+    "Customer Service"
+  ]
+}
