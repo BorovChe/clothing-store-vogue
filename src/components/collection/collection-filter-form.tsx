@@ -1,6 +1,6 @@
 "use client";
 
-import { ChangeEvent } from "react";
+import { ChangeEvent, useState } from "react";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 
 import CollectionFilterRadioBtn from "./collection-filter-radio-btn";
@@ -12,6 +12,8 @@ import {
 } from "@/data/product-filter";
 
 const CollectionFilter = () => {
+  const [filterCounter, setFilterCounter] = useState<number>(0);
+
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { push } = useRouter();
@@ -27,10 +29,23 @@ const CollectionFilter = () => {
       price: formData.get("price") as string | null,
     };
 
+    const updateFilterCounter = () => {
+      let count = 0;
+
+      if (category) count = 1;
+      if (category) count += 1;
+      if (color) count += 1;
+      if (size) count += 1;
+      if (price) count += 1;
+      setFilterCounter(count);
+    };
+
     if (category) params.set("category", category);
     if (color) params.set("color", color);
     if (size) params.set("size", size);
     if (price) params.set("price", price);
+
+    updateFilterCounter();
 
     if (params.toString()) {
       push(`${pathname}?${params.toString()}`, { scroll: false });
@@ -99,7 +114,15 @@ const CollectionFilter = () => {
           ))}
         </ul>
       </div>
-      <button type="reset">CLEAR FILTER (3)</button>
+      <button
+        type="reset"
+        onClick={() => {
+          push(pathname, { scroll: false });
+          setFilterCounter(0);
+        }}
+      >
+        CLEAR FILTER {filterCounter !== 0 ? `(${filterCounter})` : ""}
+      </button>
     </form>
   );
 };

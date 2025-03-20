@@ -19,8 +19,8 @@ const BreadCrumbs = ({ isNotFound = false }: IBreadCrumbsProps) => {
   const pathParts = wordDivision.split("/").filter(Boolean);
 
   currentPath = (
-    <p className="ml-3">
-      <span className="mr-3">/</span>404 page
+    <p className="ml-3 text-secondary-999">
+      <span className="mr-3 text-secondary-000">/</span>404 page
     </p>
   );
 
@@ -32,9 +32,11 @@ const BreadCrumbs = ({ isNotFound = false }: IBreadCrumbsProps) => {
         <div key={segment}>
           <span className="ml-3">/</span>
           {i === pathParts.length - 1 ? (
-            <span className="ml-3">{capitalizedSegment}</span>
+            <span className="ml-3 text-secondary-999">
+              {capitalizedSegment}
+            </span>
           ) : (
-            <Link href={`/${segment}`} className="inline-block ml-3">
+            <Link href={`/${segment}`} className="inline-block  ml-3">
               {capitalizedSegment}
             </Link>
           )}
@@ -43,12 +45,10 @@ const BreadCrumbs = ({ isNotFound = false }: IBreadCrumbsProps) => {
     });
 
   return (
-    <div className="py-3">
+    <div className="py-3 text-sm/[1.5] font-medium">
       <MainContainer>
-        <div className="flex">
-          <Link href="/" className="ml-3">
-            Home
-          </Link>
+        <div className="flex items-center">
+          <Link href="/">Home</Link>
           {currentPath}
         </div>
       </MainContainer>

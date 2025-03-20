@@ -3,7 +3,10 @@ import Link from "next/link";
 
 const HeaderAccountLink = () => {
   return (
-    <Link href="/account">
+    <Link
+      href="/account"
+      className="flex items-center p-2 lg:p-4 border-x border-secondary-eee"
+    >
       <Image
         src="/icons/header/account.svg"
         alt="Account Icon"

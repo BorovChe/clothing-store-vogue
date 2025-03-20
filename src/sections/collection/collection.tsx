@@ -21,7 +21,9 @@ const CollectionSection = ({ queryParams }: ICollectionSectionProps) => {
             <CollectionFilter />
           </div>
           <div>
-            <h2>{queryParams.category ? queryParams.category : "All"}</h2>
+            <h2>
+              {queryParams.category ? queryParams.category : "All Clothes"}
+            </h2>
             <p>119 Styles Found</p>
             <div>
               <label htmlFor="sort">SORT BY</label>
