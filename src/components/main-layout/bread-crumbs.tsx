@@ -45,7 +45,7 @@ const BreadCrumbs = ({ isNotFound = false }: IBreadCrumbsProps) => {
     });
 
   return (
-    <div className="py-3 text-sm/[1.5] font-medium">
+    <div className="py-3 text-sm/[1.5] font-medium border border-secondary-eee">
       <MainContainer>
         <div className="flex items-center">
           <Link href="/">Home</Link>
