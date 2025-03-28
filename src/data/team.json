@@ -1,0 +1,20 @@
+[
+  {
+    "id": "t1",
+    "name": "Antonio Pripizduchi",
+    "position": "CEO & Founder",
+    "image": "antonio.jpg"
+  },
+  {
+    "id": "t2",
+    "name": "Sophia Faberic",
+    "position": "Chief Marketing Officer",
+    "image": "sophia.jpg"
+  },
+  {
+    "id": "t3",
+    "name": "Alina Mirnaya",
+    "position": "Lead Designer",
+    "image": "alina.jpg"
+  }
+]

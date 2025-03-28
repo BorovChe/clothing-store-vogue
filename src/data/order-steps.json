@@ -4,20 +4,20 @@
     "icon": "point.svg",
     "step": "1",
     "title": "Get Your ID",
-    "caption": "We will answer any questions you may have about our online sales."
+    "caption": "Verify your identity to proceed with your order."
   },
   {
     "id": "s2",
     "icon": "user.svg",
     "step": "2",
     "title": "Enter Your ID",
-    "caption": "We will answer any questions you may have about our online sales."
+    "caption": "Enter your unique ID to track your purchase."
   },
   {
     "id": "s3",
     "icon": "envelop.svg",
     "step": "3",
     "title": "Check Billing Email",
-    "caption": "We will answer any questions you may have about our online sales."
+    "caption": "Provide your order ID for seamless processing."
   }
 ]
